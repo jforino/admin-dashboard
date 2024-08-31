@@ -1,0 +1,16 @@
+
+.sidebar-left{
+    display: grid;
+    grid-template-columns: 10px 10px;
+    grid-template-rows: repeat(10, 10px);
+    gap: 10px;
+}
+
+.sidebar-content > ul {
+    list-style: none;
+}
+
+.sidebar-images{
+    width: 20px;
+    height: auto;
+}
